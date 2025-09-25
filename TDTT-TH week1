@@ -1,0 +1,369 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "38815165-9360-4baa-9a04-2aa19ad496fe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2\n"
+     ]
+    }
+   ],
+   "source": [
+    "#W1A1\n",
+    "#Giải thích từng dòng code:\n",
+    "\n",
+    "#a = 7\n",
+    "#→ Gán giá trị 7 cho biến a.\n",
+    "\n",
+    "#b = 5\n",
+    "#→ Gán giá trị 5 cho biến b.\n",
+    "\n",
+    "#c = a - b\n",
+    "#→ Thực hiện phép trừ giữa a và b, tức là 7 - 5 = 2, và gán kết quả 2 cho biến c.\n",
+    "\n",
+    "#print(c)\n",
+    "    #→ In ra giá trị của biến c, tức là in ra số 2.\n",
+    "#Kết quả in ra là: 2\n",
+    "\n",
+    "#Vì biến c được gán bằng phép trừ a - b, với a = 7, b = 5, nên c = 2.\n",
+    "\n",
+    "#Thực thi đoạn code:\n",
+    "a = 7\n",
+    "b = 5\n",
+    "c = a - b\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "3b8e4976-0987-4871-879b-0f163349f425",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Thành phố:  Hà Nội  - Năm:  2025\n"
+     ]
+    }
+   ],
+   "source": [
+    "#W1A2\n",
+    "#city = \"Hà Nội\"\n",
+    "#→ Gán chuỗi \"Hà Nội\" cho biến city.\n",
+    "\n",
+    "#year = 2025\n",
+    "#→ Gán số nguyên 2025 cho biến year.\n",
+    "\n",
+    "#print(\"Thành phố: \", city, \" - Năm: \", year)\n",
+    "#→ Hàm print() in ra các phần tử được phân cách bởi dấu phẩy ,.\n",
+    "#→ Python sẽ tự động thêm dấu cách \" \" giữa các phần tử khi in ra.\n",
+    "#Kết quả in ra là:\n",
+    "#Thành phố:  Hà Nội  - Năm:  2025\n",
+    "#Thực thi đoạn code:\n",
+    "city = \"Hà Nội\"\n",
+    "year = 2025\n",
+    "print(\"Thành phố: \", city,\" - Năm: \", year)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "69bc5b9d-49b7-4bfc-9d92-27482c6c08bb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n"
+     ]
+    }
+   ],
+   "source": [
+    "#W1A3\n",
+    "#\n",
+    "#Đoạn code bạn cung cấp thực hiện việc tính tổng các số nguyên từ 1 đến 4. Kết quả in ra màn hình sẽ là 10.\n",
+    "#Giải thích chi tiết\n",
+    "#Đoạn code thực hiện công việc tính tổng các số nguyên liên tiếp, từ 1 đến một số nguyên n cho trước. Trong trường hợp này, n được gán bằng 4, do đó code sẽ tính tổng 1 + 2 + 3 + 4.\n",
+    "\n",
+    "#n = 4: Khởi tạo một biến n và gán giá trị 4. Biến này xác định giới hạn trên của dãy số cần tính tổng.\n",
+    "\n",
+    "#t = 0: Khởi tạo một biến t (viết tắt của \"tổng\" - total) và gán giá trị 0. Biến này sẽ lưu trữ tổng các số trong quá trình lặp.\n",
+    "\n",
+    "#for i in range(1, n+1):: Đây là một vòng lặp for lặp lại các giá trị của i trong một phạm vi nhất định. Hàm range(1, n+1) sẽ tạo ra một chuỗi số từ 1 đến n (trong trường hợp này là 4). Các giá trị của i sẽ lần lượt là 1, 2, 3 và 4.\n",
+    "\n",
+    "#t += i: Trong mỗi lần lặp, giá trị hiện tại của i sẽ được cộng vào biến t.\n",
+    "\n",
+    "#Lần 1: i = 1, t = 0 + 1 = 1\n",
+    "\n",
+    "#Lần 2: i = 2, t = 1 + 2 = 3\n",
+    "\n",
+    "#Lần 3: i = 3, t = 3 + 3 = 6\n",
+    "\n",
+    "#Lần 4: i = 4, t = 6 + 4 = 10\n",
+    "\n",
+    "#print(t): Sau khi vòng lặp kết thúc, dòng code này sẽ in giá trị cuối cùng của t ra màn hình, đó là 10.\n",
+    "#Thực thi đoạn code\n",
+    "n = 4\n",
+    "t = 0 \n",
+    "for i in range(1,n+1):\n",
+    "    t += i\n",
+    "print(t)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "242017a9-98b3-4e02-b610-6f68b9dd6cbd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1 là số lẻ\n",
+      "2 là số chẵn\n",
+      "3 là số lẻ\n",
+      "4 là số chẵn\n"
+     ]
+    }
+   ],
+   "source": [
+    "#W1A4\n",
+    "#\n",
+    "#Đoạn code bạn cung cấp thực hiện việc kiểm tra xem các số trong một danh sách là số chẵn hay số lẻ và in ra kết quả tương ứng.\n",
+    "\n",
+    "#Giải thích chi tiết\n",
+    "#Đây là một chương trình Python đơn giản để lặp qua một danh sách số và xác định tính chẵn lẻ của từng số. Kết quả đầu ra sẽ là:\n",
+    "\n",
+    "#1 là số lẻ\n",
+    "#2 là số chẵn\n",
+    "#3 là số lẻ\n",
+    "#4 là số chẵn\n",
+    "#numbers = [1, 2, 3, 4]: Khởi tạo một danh sách (list) có tên numbers chứa các số nguyên từ 1 đến 4.\n",
+    "\n",
+    "#for x in numbers:: Bắt đầu một vòng lặp for. Vòng lặp này sẽ duyệt qua từng phần tử trong danh sách numbers. Trong mỗi lần lặp, giá trị của phần tử hiện tại sẽ được gán cho biến x.\n",
+    "\n",
+    "#if x % 2 == 0:: Đây là một câu lệnh điều kiện.\n",
+    "\n",
+    "#x % 2: Toán tử % (toán tử modulo) trả về phần dư của phép chia x cho 2.\n",
+    "\n",
+    "#== 0: So sánh phần dư với 0.\n",
+    "\n",
+    "#Câu lệnh này kiểm tra xem một số x có chia hết cho 2 hay không. Nếu x chia hết cho 2 (phần dư bằng 0), nó là một số chẵn.\n",
+    "\n",
+    "#print(x, \"là số chẵn\"): Nếu điều kiện if đúng (số là số chẵn), chương trình sẽ in ra giá trị của x và chuỗi \"là số chẵn\".\n",
+    "\n",
+    "#else:: Nếu điều kiện if sai \n",
+    "#print(x, \"là số lẻ\"): Chương trình sẽ in ra giá trị của x và chuỗi \"là số lẻ\".\n",
+    "#Thực thi đoạn code\n",
+    "numbers =[1,2,3,4]\n",
+    "for x in numbers:\n",
+    "    if x%2==0:\n",
+    "        print(x,\"là số chẵn\")\n",
+    "    else:\n",
+    "        print(x,\"là số lẻ\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "37f0cae1-6c23-4bcd-b4b5-1bd4a84c42b6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "số phần tử trong danh sách là: 4\n"
+     ]
+    }
+   ],
+   "source": [
+    "#W1A5\n",
+    "#Đoạn code bạn cung cấp thực hiện việc đếm tổng số phần tử trong một danh sách. Kết quả in ra màn hình sẽ là 4.\n",
+    "\n",
+    "#Giải thích chi tiết\n",
+    "#Đây là một chương trình Python đơn giản để đếm số phần tử trong một danh sách bằng cách sử dụng vòng lặp.\n",
+    "\n",
+    "#animals = [\"cat\", \"dog\", \"cat\", \"bird\"]: Khởi tạo một danh sách có tên animals chứa bốn chuỗi (string): \"cat\", \"dog\", \"cat\", và \"bird\". Đây là danh sách mà chúng ta sẽ đếm các phần tử của nó.\n",
+    "\n",
+    "#count = 0: Khởi tạo một biến count với giá trị ban đầu là 0. Biến này sẽ được dùng để lưu trữ số lượng phần tử khi chúng ta duyệt qua danh sách.\n",
+    "\n",
+    "#for a in animals:: Đây là một vòng lặp for lặp qua từng phần tử trong danh sách animals. Trong mỗi lần lặp, biến a sẽ nhận giá trị của một phần tử trong danh sách.\n",
+    "\n",
+    "#count += 1: Trong mỗi lần lặp, giá trị của biến count sẽ được tăng lên 1.\n",
+    "\n",
+    "#Lần 1: a = \"cat\", count = 0 + 1 = 1\n",
+    "\n",
+    "#Lần 2: a = \"dog\", count = 1 + 1 = 2\n",
+    "\n",
+    "#Lần 3: a = \"cat\", count = 2 + 1 = 3 \n",
+    "\n",
+    "#Lần 4: a = \"bird\", count = 3 + 1 = 4\n",
+    "\n",
+    "#print(\"Số phần tử trong danh sách là:\", count): Sau khi vòng lặp kết thúc, dòng code này sẽ in ra một chuỗi văn bản và giá trị cuối cùng của biến count, đó là 4.\n",
+    "#Thực thi đoạn code\n",
+    "animals = [\"cat\", \"dog\", \"cat\", \"bird\"]\n",
+    "count = 0\n",
+    "for a in animals:\n",
+    "    count +=1\n",
+    "print(\"số phần tử trong danh sách là:\", count)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "56bdf33a-8e41-4fa1-b293-471fe36db9ae",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#W1A6\n",
+    "Chương trình hiển thị một menu tương tác cho người dùng. Nó không thực hiện bất kỳ phép toán hay xử lý dữ liệu nào, mà chỉ đơn giản là in ra các tùy chọn để người dùng lựa chọn, tạo ra một giao diện đơn giản.\n",
+    "\n",
+    "Giải thích chi tiết\n",
+    "Kết quả hiển thị trên màn hình là do một loạt các lệnh print() được sử dụng để xuất văn bản ra màn hình console. Chương trình đang chờ người dùng nhập một giá trị (thường là số 1, 2, hoặc 3) để chọn một trong các chức năng được liệt kê.\n",
+    "\n",
+    "=== AI Prediction System ===: Dòng này được in ra để làm tiêu đề cho menu, giúp người dùng nhận biết đây là hệ thống gì.\n",
+    "\n",
+    "1) Sentiment analysis: Dòng này hiển thị tùy chọn đầu tiên, phân tích cảm xúc (sentiment analysis).\n",
+    "\n",
+    "2) Weather forecast: Dòng này hiển thị tùy chọn thứ hai, dự báo thời tiết.\n",
+    "\n",
+    "3) Exit: Dòng này hiển thị tùy chọn thứ ba, cho phép người dùng thoát khỏi chương trình.\n",
+    "\n",
+    "Please choose an option:: Dòng cuối cùng này là một lời nhắc (prompt) yêu cầu người dùng nhập vào một giá trị để chọn tùy chọn mong muốn.\n",
+    "\n",
+    "Chương trình này có thể là một phần của một hệ thống lớn hơn, nơi sau khi người dùng nhập lựa chọn, chương trình sẽ thực hiện các hành động tương ứng, chẳng hạn như gọi một hàm phân tích cảm xúc hoặc dự báo thời tiết.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c7a60228-fc84-4f85-adec-2a7f4cd379cd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#W1A7\n",
+    "Đoạn code bạn cung cấp có hai lỗi chính. Lỗi đầu tiên là sai kiểu dữ liệu, và lỗi thứ hai là sai cú pháp else.\n",
+    "\n",
+    "Phân tích lỗi và cách sửa\n",
+    "Lỗi đầu tiên xảy ra ở dòng if num % 2 == 0:. Hàm input() trong Python luôn trả về một chuỗi (string), nhưng toán tử modulo % chỉ hoạt động với các kiểu dữ liệu số như số nguyên (int) hoặc số thực (float). Khi bạn cố gắng thực hiện phép toán % 2 trên một chuỗi, chương trình sẽ báo lỗi. Để khắc phục, bạn cần chuyển đổi chuỗi num thành một số nguyên bằng cách sử dụng hàm int().\n",
+    "\n",
+    "Lỗi thứ hai là cú pháp của câu lệnh else. Sau từ khóa else, bạn cần có dấu hai chấm : để báo hiệu bắt đầu một khối lệnh mới. Đoạn code của bạn thiếu dấu hai chấm này."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "61815901-6077-49b2-a297-49281e3be87b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#W1A8\n",
+    "\n",
+    "Đoạn code bạn cung cấp sẽ in ra kết quả như sau:\n",
+    "\n",
+    "AI đang học lần 1\n",
+    "AI đang học lần 2\n",
+    "AI đang học lần 3\n",
+    "Huấn luyện xong!\n",
+    "Giải thích chi tiết\n",
+    "Chương trình này mô phỏng quá trình huấn luyện của một AI trong 3 lần lặp. Nó sử dụng một vòng lặp for để thực hiện một hành động nhiều lần, và sau đó in ra một thông báo khi vòng lặp kết thúc.\n",
+    "\n",
+    "for i in range(3):: Vòng lặp for này sẽ lặp lại 3 lần. Hàm range(3) tạo ra một chuỗi số từ 0 đến 2. Do đó, biến i sẽ lần lượt nhận các giá trị là 0, 1, và 2.\n",
+    "\n",
+    "print(\"AI đang học lần \", i + 1): Dòng này nằm bên trong vòng lặp. Nó sẽ được thực thi trong mỗi lần lặp.\n",
+    "\n",
+    "Lần 1: Khi i là 0, chương trình in ra \"AI đang học lần 1\" (vì 0 + 1 = 1).\n",
+    "\n",
+    "Lần 2: Khi i là 1, chương trình in ra \"AI đang học lần 2\" (vì 1 + 1 = 2).\n",
+    "\n",
+    "Lần 3: Khi i là 2, chương trình in ra \"AI đang học lần 3\" (vì 2 + 1 = 3).\n",
+    "\n",
+    "print(\"Huấn luyện xong!\"): Dòng này không có thụt lề, nghĩa là nó nằm ngoài vòng lặp for. Do đó, nó chỉ được thực thi một lần duy nhất sau khi vòng lặp for đã hoàn thành tất cả các lần lặp của mình. Kết quả là, thông báo \"Huấn luyện xong!\" chỉ xuất hiện một lần ở cuối cùng."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "40b1af26-ca99-4c32-8c1d-133a52eecd93",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#W1A9\n",
+    "\n",
+    "Đoạn code này sẽ in ra 3 dòng. Nội dung của mỗi dòng sẽ là:\n",
+    "\n",
+    "Dự đoán con vật: cat\n",
+    "\n",
+    "Dự đoán con vật: dog\n",
+    "\n",
+    "Dự đoán con vật: fish\n",
+    "\n",
+    "Giải thích\n",
+    "Đoạn code sử dụng một vòng lặp for để lặp qua từng phần tử trong danh sách [\"cat\", \"dog\", \"fish\"].\n",
+    "\n",
+    "for x in [...]: Vòng lặp này duyệt qua từng phần tử của danh sách, và trong mỗi lần lặp, gán giá trị của phần tử đó cho biến x.\n",
+    "\n",
+    "Lần lặp đầu tiên, x sẽ là \"cat\".\n",
+    "\n",
+    "Lần lặp thứ hai, x sẽ là \"dog\".\n",
+    "\n",
+    "Lần lặp thứ ba, x sẽ là \"fish\".\n",
+    "\n",
+    "print(\"Dự đoán con vật:\", x): Lệnh này nằm trong vòng lặp nên nó được thực thi ba lần. Mỗi lần, nó in ra chuỗi \"Dự đoán con vật:\" cùng với giá trị hiện tại của biến x.\n",
+    "\n",
+    "Vì có 3 phần tử trong danh sách, vòng lặp sẽ chạy 3 lần và in ra 3 dòng tương ứng."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8da7ccbb-06ce-42f2-9c9e-bb780bb8f92f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#W1A10\n",
+    "\n",
+    "Đoạn code bạn cung cấp có một lỗi cú pháp ở dòng print(\"2) Weather forecast\")).\n",
+    "\n",
+    "Phân tích lỗi và cách sửa\n",
+    "Lỗi là do có một dấu ngoặc đơn ) bị thừa ở cuối dòng lệnh print(\"2) Weather forecast\")). Mỗi lệnh print() chỉ cần một cặp dấu ngoặc đơn để bao quanh nội dung cần in. Dấu ngoặc đơn thừa này đã phá vỡ cú pháp của câu lệnh.\n",
+    "\n",
+    "Code đã sửa\n",
+    "Để sửa lỗi này, bạn chỉ cần xóa dấu ngoặc đơn thừa đó. Đây là đoạn code đã được sửa để chạy đúng:"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
