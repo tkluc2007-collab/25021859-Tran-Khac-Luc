@@ -1,0 +1,332 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "e84642a4-4fc0-4085-90bf-ea90fb88ee94",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello World!\n"
+     ]
+    }
+   ],
+   "source": [
+    "#W2A1\n",
+    "print(\"Hello World!\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "f58671c9-c67a-4286-bbfc-dc7766ae6f1a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Hãy nhập tên của bạn:  Trần Khắc Lực\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Chào bạn, Trần Khắc Lực\n"
+     ]
+    }
+   ],
+   "source": [
+    "#W2A2\n",
+    "name = input(\"Hãy nhập tên của bạn: \")\n",
+    "print(\"Chào bạn, \" + name )"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "d98cdcf4-a3d7-4147-bc4c-5810b1c6632b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Nhập số nguyên a:  10\n",
+      "Nhập số nguyên b:  3\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Tổng: 13\n",
+      "Hiệu: 7\n",
+      "Tích: 30\n",
+      "Phần nguyên của phép chia: 3\n",
+      "Phần dư của phép chia: 1\n",
+      "Kết quả chia thực: 3.33\n"
+     ]
+    }
+   ],
+   "source": [
+    "#W2A3\n",
+    "a = int(input(\"Nhập số nguyên a: \"))\n",
+    "b = int(input(\"Nhập số nguyên b: \"))\n",
+    "tong = a + b\n",
+    "hieu = a - b\n",
+    "tich = a * b\n",
+    "chia_nguyen = a // b\n",
+    "phan_du = a % b\n",
+    "chia_thuc = a / b\n",
+    "print(\"Tổng:\", tong)\n",
+    "print(\"Hiệu:\", hieu)\n",
+    "print(\"Tích:\", tich)\n",
+    "print(\"Phần nguyên của phép chia:\", chia_nguyen)\n",
+    "print(\"Phần dư của phép chia:\", phan_du)\n",
+    "print(\"Kết quả chia thực:\", f\"{chia_thuc:.2f}\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "77b9d149-a877-4b97-a888-8fe2ed6fdd61",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 6\n",
+      " 7\n",
+      " 8\n",
+      " 9\n",
+      " 8\n",
+      " 7\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7.6\n"
+     ]
+    }
+   ],
+   "source": [
+    "#W2A4\n",
+    "a1 = int(input())\n",
+    "b1 = int(input())\n",
+    "c1 = int(input())\n",
+    "a2 = int(input())\n",
+    "b2 = int(input())\n",
+    "a3 = int(input())\n",
+    "Điểm_TB = ((a1+b1+c1)+(a2+b2)*2+a3*3)/10\n",
+    "print(f\"{Điểm_TB :.1f}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "f2df3fd1-c2a7-4f04-84dc-4dd04b14c6f0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 2 4\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "16\n"
+     ]
+    }
+   ],
+   "source": [
+    "#W2A5\n",
+    "input_str = input()\n",
+    "a , b = map(int,input_str.split())\n",
+    "result = a**b\n",
+    "print(result)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "58b1cd4f-d33f-4294-900e-350cf4743f8a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "97\n",
+      "A\n"
+     ]
+    }
+   ],
+   "source": [
+    "#W2A6\n",
+    "print(ord('a'))\n",
+    "print(chr(65))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "3f51c4ca-1ead-4b70-a8d1-f617ff8799db",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "512\n",
+      "512\n"
+     ]
+    }
+   ],
+   "source": [
+    "#W2A7\n",
+    "A = ((13 ** 2) * 3) + 5\n",
+    "B = 13**2*3 + 5\n",
+    "print(A)\n",
+    "print(B)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "0c580f95-c38d-4294-8f8f-c63d6dea4e6c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 25\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "77.00\n"
+     ]
+    }
+   ],
+   "source": [
+    "#W2A8\n",
+    "C = float(input())\n",
+    "F = 9/5*C + 32\n",
+    "print(f\"{F:.2f}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "e856ff5d-e8f6-471b-bb7d-99193d1b54ed",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 1000\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Tổng tiền phải trả là1440.00USD\n"
+     ]
+    }
+   ],
+   "source": [
+    "#W2A9\n",
+    "gia_dong_ho = float(input())\n",
+    "phi_van_chuyen = 10\n",
+    "thue_xuat_nhap_canh = gia_dong_ho * 0.30\n",
+    "thue_vat = (gia_dong_ho + thue_xuat_nhap_canh) * 0.10\n",
+    "tong_tien = gia_dong_ho + phi_van_chuyen + thue_xuat_nhap_canh + thue_vat\n",
+    "print(f\"Tổng tiền phải trả là{tong_tien:.2f}USD\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "id": "fe9e48f7-241e-4da2-949a-172098e5e6db",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "name1:Sol,name2:Thien_An,name3:Jack\n"
+     ]
+    }
+   ],
+   "source": [
+    "#W2A10\n",
+    "name_str = \"Jack Thien_An Sol\"\n",
+    "name_list = name_str.split()\n",
+    "name_list.reverse()\n",
+    "print(f\"name1:{name_list[0]},name2:{name_list[1]},name3:{name_list[2]}\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "607c0674-bfb5-42ed-ab0a-cabdff710745",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3930030c-01af-48eb-b7c6-13d9ba8e5aea",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "25e8cf0c-6654-4939-815e-b576c86db3fb",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
